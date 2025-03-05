@@ -35,3 +35,31 @@ Este proyecto analiza las ventas de videojuegos por región, plataforma y géner
 — Critic_Score (máximo de 100) 
 — User_Score (máximo de 10) 
 — Rating (ESRB)
+
+### Conclusiones y recomendaciones
+
+#### Dinámica de ventas por región:
+- las plataformas con mas ventas en los ultimos 5 años son 3DS, DS, PS2, PS3, PS4, PSP, Wii, X360
+- Norteamérica y Europa prefieren juegos de acción y disparos en consolas como Xbox y PlayStation.
+- Japón, en cambio, favorece juegos de rol en plataformas portátiles como Nintendo 3DS.
+
+#### Efecto de las reseñas:
+- Las puntuaciones de usuarios presentan correlación casi nula, lo que sugiere que los consumidores priorizan otras métricas al elegir juegos.
+
+#### Pruebas de hipótesis:
+- Las calificaciones promedio de los usuarios para las plataformas Xbox One y PC son iguales.
+- Las calificaciones promedio de los usuarios para los géneros de Acción y Deportes son diferentes.
+
+#### Estrategias recomendadas:
+- Dado que PS4 y Xbox One se mantienen relevantes en ventas globales, recomendamos enfocar campañas publicitarias en estas plataformas.
+- Debido a las preferencias de usuarios en esta región, recomendamos enfocar promociones de RPG en Japón e impulsar títulos de acción y disparos en mercados occidentales.
+
+### Visualizaciones destacadas
+1. **Distribución de ventas por género:** Los géneros con mayores ventas son aquellos que pertenecen al género de acción, disparos, juegos de rol y deportes. Mientras que los géneros con menores ventas son los de rompecabezas y estrategia.
+![Generos con mas ventas]({{ "/assets/Ventas%20por%20genero.png" | relative_url }})
+3. **Comparación de reseñas y ventas:** Hay una correlación positiva mediana entre la puntuación de los críticos y las ventas de videojuegos. Esto podría significar que los usuarios toman en cuenta parcialmente las puntuaciones de los críticos para comprar o no un videojuego.
+![Comparación de reseñas y ventas](https://github.com/monik719/Portafolio/blob/main/assets/Distribuci%C3%B3n%20ventas%20y%20critica.png)
+4. **Ventas por plataforma:** 6 plataformas de las que mas vendieron desde el año de lanzamiento hasta desaparecer, es un promedio de 10 años.
+![Diagrama de lineas](https://github.com/monik719/Portafolio/blob/main/assets/Ultimos%205%20a%C3%B1os.png)
+
+**Explora más detalles del proyecto en el [repositorio completo](https://github.com/monik719/proyecto_venta_videojuegos).**
